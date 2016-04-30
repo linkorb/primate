@@ -1,0 +1,27 @@
+{
+    "name": "linkorb/primate",
+    "description": "Primate: Restful API Library",
+    "homepage": "http://www.github.com/linkorb/primate",
+    "keywords": ["php", "primate", "api", "json", "restful", "linkorb"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "symfony/yaml": "~2.7",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Primate\\": "src/"
+        }
+    },
+    "license": "MIT"
+}

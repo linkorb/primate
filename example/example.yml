@@ -1,0 +1,42 @@
+contacts:
+    a:
+        name: Alice
+        home: @addresses:1
+        email: @emails:1
+        email2: @emails:2
+    b:
+        name: Bob
+        home: @addresses:2
+        
+addresses:
+    1:
+        city: Wonderlane 1
+        postalcode: 4242 XY
+        country: @countries:usa
+    2:
+        city: Spring City
+        postalcode: 1234 SC
+        country: @countries:chn
+
+emails:
+    1:
+        address: bob@example.com
+        type: work
+    2:
+        address: bob@gmail.com
+        type: home
+        
+countries:
+    nld:
+        name: Netherlands
+        population: 17007020
+    chn:
+        name: China
+        population: 1376230000
+    ind:
+        name: India
+        population: 1288100000
+    usa:
+        name: United States of America
+        population: 323352000
+        
